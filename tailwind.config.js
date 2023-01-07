@@ -5,7 +5,11 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        pickle: "url('images/pickle.jpg')"
+      }
+    },
   },
   plugins: [],
   darkMode: 'class',
